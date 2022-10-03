@@ -50,6 +50,7 @@ const filteredCoins = coins.filter(coin =>
 
    {filteredCoins.map(coin => {
   return (
+    
       <Coin 
       key={coin.id}
       name={coin.name}
